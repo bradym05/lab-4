@@ -1,9 +1,9 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-import { string } from 'zod';
 
 export const STORAGE_KEYS = {
     PROFILE: 'profile',
     NOTIFICATIONS: 'notifications',
+    THEME: 'theme'
 } as const;
 
 // Get a value from storage
